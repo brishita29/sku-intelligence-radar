@@ -77,7 +77,7 @@ https://public.tableau.com/app/profile/rishita.boddu/viz/ProfitLeakageRecoveryMa
 
 ## Business Value
 
-Helped identify high-potential SKU recoveries worth up to 5–10% of total category margin loss.
+Helps identify high-potential SKU recoveries worth up to 5–10% of total category margin loss.
 Enabled merchandising and pricing teams to focus on SKUs with both financial upside and high statistical confidence, avoiding wasted effort.
 
 ## Author
