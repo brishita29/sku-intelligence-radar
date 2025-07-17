@@ -62,7 +62,7 @@ Business logic layers – Erosion type classification, Clean Action flags, Strat
 | Tableau Dashboard.png | Visual summary of SKU recovery, erosion flags, confidence scores, and category-wise impact|
 
 ### View Full Tableau Dashboard
-([https://public.tableau.com/app/profile/rishita.boddu/viz/ProfitLeakageRecoveryMap/Dashboard3])
+https://public.tableau.com/app/profile/rishita.boddu/viz/ProfitLeakageRecoveryMap/Dashboard3
 > - Top priority SKUs by adjusted recovery
 > - Erosion risk flags and removal risk
 > - Recommended actions: Kill, Cut Promo, Keep
