@@ -64,9 +64,7 @@ The result is a production-ready analytics solution that mirrors real-world merc
 | uplift_final.csv | Uplift simulations under multiple recovery scenarios |
 | Tableau Dashboard.png | Visual summary of SKU recovery, erosion flags, confidence scores, and category-wise impact|
 
----
-
-### [View Full Tableau Dashboard]
+### View Full Tableau Dashboard
 ([https://public.tableau.com/app/profile/rishita.boddu/viz/ProfitLeakageRecoveryMap/Dashboard3])
 > - Top priority SKUs by adjusted recovery
 > - Erosion risk flags and removal risk
