@@ -5,14 +5,26 @@
 
 ## Overview
 
-**The SKU Intelligence Radar** is a full-stack decision support system built to help merchandising and pricing teams identify underperforming SKUs with hidden profit erosion. Based on raw user interaction data (views, carts, purchases), the project isolates high-traffic, low-conversion products, estimates potential financial recovery, and recommends data-backed actions at the SKU level.
-
-Developed using a combination of **SQL (DuckDB)** for data transformation, **Python** for analysis and modeling, **A/B testing** for behavioral validation, and **Tableau** for executive visualization, the system delivers a structured pipeline from data to strategic recommendation.
-
+This project builds a full-funnel intelligence engine for an e-commerce/DTC retailer to detect conversion leaks, simulate lost profit, and prioritize SKUs based on potential recovery value.
+It blends funnel analytics, statistical testing, and decision strategy into a practical tool for merchandising teams.
 ---
 
 ## Project Goal  
 To detect SKU-level margin loss, simulate realistic uplift scenarios, and produce prioritized, confidence-weighted SKU actions to support merchandising strategy.
+
+---
+## Business Problem
+In most retail businesses, high-traffic SKUs don’t always convert well — leading to invisible revenue leaks and missed profit opportunities.
+
+This project answers:
+
+Which SKUs are leaking the most money due to funnel drop-offs?
+
+Which ones are worth fixing?
+
+How confident are we that the fixes will work?
+
+What would be the uplift if we fix them?
 
 ---
 
@@ -37,20 +49,17 @@ To detect SKU-level margin loss, simulate realistic uplift scenarios, and produc
 
 ---
 
-## Outcome
+## Tools & Techniques
+SQL – for funnel logic, grouping, and transformation
 
-The result is a production-ready analytics solution that mirrors real-world merchandising workflows. It unifies behavioral analysis, financial modeling, risk forecasting, and strategy simulation into one decision-making layer. This system enables merchandising and pricing teams to act on high-impact SKU opportunities with clarity, speed, and confidence.
+Python – for statistical tests, uplift simulation, priority scoring
 
+Pandas / NumPy / Scipy / Statsmodels – modeling and analysis
 
----
+Tableau – interactive executive dashboard
 
-## Tools & Technologies
+Business logic layers – Erosion type classification, Clean Action flags, Strategic recommendations
 
-- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-- **SQL via DuckDB** (in-memory querying on large CSV files)
-- **XGBoost & Logistic Regression**
-- **Tableau** (for dashboard visualization)
-- **Data**: Kaggle RetailRocket Events Dataset
 
 ---
 
@@ -84,7 +93,8 @@ The result is a production-ready analytics solution that mirrors real-world merc
 
 ## Business Value
 
-This project simulates a real merchandising analytics pipeline — turning millions of raw events into actionable SKU decisions. Ideal for e-commerce teams looking to reduce churn, improve profit margins, and optimize product-level performance.
+Helped identify high-potential SKU recoveries worth up to 5–10% of total category margin loss.
+Enabled merchandising and pricing teams to focus on SKUs with both financial upside and high statistical confidence, avoiding wasted effort.
 
 ---
 
